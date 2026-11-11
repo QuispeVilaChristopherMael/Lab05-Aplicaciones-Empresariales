@@ -1,0 +1,71 @@
+# =============================================================================
+# .gitignore — Proyecto Django Lab05 (Tecsup)
+# Archivos y carpetas que NO se deben subir a GitHub
+# =============================================================================
+
+# --- Entorno virtual ---
+myvenv/
+venv/
+env/
+ENV/
+.venv/
+
+# --- Archivos de entorno y secretos (NUNCA subir) ---
+.env
+.env.*
+!.env.example
+*.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Django ---
+*.log
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# --- IDE y editores ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# --- Sistema operativo ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Documentos temporales y del laboratorio ---
+*.md.bak
+*.backup
+poblar_datos.py
+*.pyc
+
+# --- Credenciales y claves ---
+secrets.json
+*.pem
+*.key
+id_rsa*
