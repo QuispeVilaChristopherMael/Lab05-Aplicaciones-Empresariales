@@ -2,7 +2,7 @@
 
 **Curso:** Desarrollo de Aplicaciones Web  
 **Tema:** Administrador con Django  
-**Autor:** Hector Manrique Morante  
+**Autor:** Christopher Quispe Y Jesus Olazabal 
 **Institución:** Tecsup  
 **Semana:** 05
 
@@ -175,4 +175,4 @@ Ingresa con las credenciales del superusuario creadas anteriormente.
 
 Este proyecto cumple con todos los requisitos del Laboratorio 05 según la guía oficial del curso, incluyendo la corrección de erratas (`INSTALLED_APPS` con doble "L"), uso correcto de la app `tienda`, definición exacta del modelo `Cliente`, y la acción personalizada de incremento de stock en lote.
 
-**Contacto:** Hector Manrique Morante — Tecsup
+
